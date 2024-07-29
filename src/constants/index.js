@@ -1,5 +1,4 @@
 
-import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
     car,
     contact,
@@ -21,12 +20,15 @@ import {
     redux,
     sass,
     snapgram,
-    summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    
 } from "../assets/icons";
-
+import shorturl from "../assets/icons/shorturl.png"
+import appointment from "../assets/icons/doctor-appointment.png"
+import ballisimo from "../assets/icons/Ballisimo.png"
+import podcast from "../assets/icons/podcast.png"
 export const skills = [
     {
         imageUrl: css,
@@ -110,60 +112,9 @@ export const skills = [
     }
 ];
 
-export const experiences = [
-    {
-        title: "React.js Developer",
-        project_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        project_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        project_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        project_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-];
+// export const experiences = [
+
+// ];
 
 export const socialLinks = [
     {
@@ -185,45 +136,47 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: shorturl,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'ShorUrl',
+        description: `I developed a URL shortener web application to streamline the process of generating and managing short links. 
+        This project aimed to enhance my skills in modern web development technologies, including React, TypeScript, Node.js, and MongoDB. 
+        Through this experience, I gained hands-on expertise in building full-stack applications, 
+        implementing RESTful APIs, and ensuring efficient data storage and retrieval. Additionally, 
+        I focused on creating a user-friendly interface and ensuring robust backend functionality.`,
+        link: 'https://github.com/Tommysons/ShortUrl',
     },
     {
-        iconUrl: threads,
+        iconUrl: appointment,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+        name: 'Appointment',
+        description: `I developed a doctor appointment booking web application to facilitate the scheduling and management of medical appointments. 
+        This project aimed to enhance my skills in modern web development technologies, including Next.js, TypeScript, Appwrite, and Twilio for SMS notifications. 
+        Through this experience, I gained hands-on expertise in building full-stack applications, implementing real-time notifications where users receive SMS notifications if appointment is approved or cancelled, 
+        and ensuring efficient data management.`,
         link: 'https://github.com/adrianhajdin/threads',
     },
     {
-        iconUrl: car,
+        iconUrl: ballisimo,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Ballisimo - 3D game',
+        description: `I created a 3D game designed to challenge players to roll a ball from start to finish as fast as possible, 
+        with a timer tracking their progress. 
+        Using React and Three.js, this project focused on improving my skills in developing interactive 3D graphics and dynamic gameplay. 
+        The game features various obstacles that increase the difficulty of reaching the end, providing a compelling and engaging experience. 
+        This allowed me to gain practical knowledge in game design, performance optimization, and creating immersive user interactions.`,
+        link: 'https://github.com/Tommysons/Ballisimo',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: podcast,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'AI Podcast',
+        description: `I built an AI-powered podcast application that allows users to input text and choose a voice to narrate it. 
+        This project was designed to enhance my proficiency in modern web development technologies, utilizing OpenAI for voice synthesis, 
+        along with Next.js, TypeScript, and Convex for the database. Through this endeavor, I gained valuable experience in integrating AI technologies, 
+        managing user inputs, and providing a customizable auditory experience. 
+        The project emphasized efficient data handling and creating a user-friendly interface for seamless interaction.`,
+        link: 'https://github.com/Tommysons/podcast',
     },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+
 ];

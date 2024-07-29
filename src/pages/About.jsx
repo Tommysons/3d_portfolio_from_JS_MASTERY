@@ -1,8 +1,8 @@
 import React from 'react';
-import { skills, experiences } from '../constants';
+import { skills,} from '../constants';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import CTA from '../components/CTA';
+// import CTA from '../components/CTA';
 
 const About = () => {
   return (
@@ -32,7 +32,7 @@ const About = () => {
           ))}
         </div>
       </div>
-      <div className='py-16'>
+      {/* <div className='py-16'>
         <h3 className='subhead-text'>Experience</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         During my time at Cornerstone College, 
@@ -90,7 +90,7 @@ const About = () => {
         </div>
       </div>
       <hr className='border-slate-200' />
-      <CTA/>
+      <CTA/> */}
     </section>
   );
 }
