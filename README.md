@@ -35,7 +35,7 @@ Make sure you have Node.js and npm installed on your machine.
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/3d-portfolio.git
+    git clone https://github.com/Tommysons/3d_portfolio_from_JS_MASTERY.git
     cd 3d-portfolio
     ```
 
