@@ -154,7 +154,7 @@ export const projects = [
         This project aimed to enhance my skills in modern web development technologies, including Next.js, TypeScript, Appwrite, and Twilio for SMS notifications. 
         Through this experience, I gained hands-on expertise in building full-stack applications, implementing real-time notifications where users receive SMS notifications if appointment is approved or cancelled, 
         and ensuring efficient data management.`,
-        link: 'https://github.com/adrianhajdin/threads',
+        link: 'https://github.com/Tommysons/appointment',
     },
     {
         iconUrl: ballisimo,
