@@ -35,7 +35,7 @@ const Contact = () => {
           from_name: "Tom Terescenko",
           // from_email: "vermion15@gmail.com", // Add the reply_to field
           to_name: form.name, // Your name, or whatever you'd like to appear as the recipient's name
-          to_email: form.email, // Your email
+          email_to: form.email,  // Your email
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
