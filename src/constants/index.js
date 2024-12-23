@@ -112,9 +112,26 @@ export const skills = [
     }
 ];
 
-// export const experiences = [
-
-// ];
+export const experiences = [
+    {
+        name: "CoraZoneHealth",
+        image: "https://www.corazonehealth.com/_next/image?url=%2Fassets%2Flogo.jpg&w=256&q=75",
+        url: "https://www.corazonehealth.com/",
+        description: `CorazoneHealth is a project centered around fitness, 
+        featuring an integrated subscription-based payment system and a dynamic blog designed to engage 
+        users with fitness tips, health advice, and wellness content.
+        The app was developed using Next.js, ensuring server-side rendering for fast page load speeds 
+        and improved SEO performance. TypeScript was incorporated to provide type safety and enhance 
+        development efficiency. The website’s design and styling leverage Tailwind CSS, making full 
+        use of its utility-first approach for fast, responsive layouts. Additionally, 
+        Tailwind animations were implemented to provide smooth, interactive transitions throughout the site.
+        `,
+        theme: "btn-back-green",
+        
+        
+    }
+  
+];
 
 export const socialLinks = [
     {
@@ -145,17 +162,18 @@ export const projects = [
         implementing RESTful APIs, and ensuring efficient data storage and retrieval. Additionally, 
         I focused on creating a user-friendly interface and ensuring robust backend functionality.`,
         link: 'https://github.com/Tommysons/ShortUrl',
+        color: "bg-amber-50"
     },
-    {
-        iconUrl: appointment,
-        theme: 'btn-back-green',
-        name: 'Appointment',
-        description: `I developed a doctor appointment booking web application to facilitate the scheduling and management of medical appointments. 
-        This project aimed to enhance my skills in modern web development technologies, including Next.js, TypeScript, Appwrite, and Twilio for SMS notifications. 
-        Through this experience, I gained hands-on expertise in building full-stack applications, implementing real-time notifications where users receive SMS notifications if appointment is approved or cancelled, 
-        and ensuring efficient data management.`,
-        link: 'https://github.com/Tommysons/appointment',
-    },
+    // {
+    //     iconUrl: appointment,
+    //     theme: 'btn-back-green',
+    //     name: 'Appointment',
+    //     description: `I developed a doctor appointment booking web application to facilitate the scheduling and management of medical appointments. 
+    //     This project aimed to enhance my skills in modern web development technologies, including Next.js, TypeScript, Appwrite, and Twilio for SMS notifications. 
+    //     Through this experience, I gained hands-on expertise in building full-stack applications, implementing real-time notifications where users receive SMS notifications if appointment is approved or cancelled, 
+    //     and ensuring efficient data management.`,
+    //     link: 'https://github.com/Tommysons/appointment',
+    // },
     {
         iconUrl: ballisimo,
         theme: 'btn-back-blue',
@@ -166,6 +184,7 @@ export const projects = [
         The game features various obstacles that increase the difficulty of reaching the end, providing a compelling and engaging experience. 
         This allowed me to gain practical knowledge in game design, performance optimization, and creating immersive user interactions.`,
         link: 'https://github.com/Tommysons/Ballisimo',
+        color: "bg-cyan-50"
     },
     {
         iconUrl: podcast,
@@ -177,6 +196,7 @@ export const projects = [
         managing user inputs, and providing a customizable auditory experience. 
         The project emphasized efficient data handling and creating a user-friendly interface for seamless interaction.`,
         link: 'https://github.com/Tommysons/podcast',
+        color: "bg-purple-50"
     },
 
 ];

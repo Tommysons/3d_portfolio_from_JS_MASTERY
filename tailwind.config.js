@@ -16,6 +16,15 @@ export default {
         },
         blue: {
           500: "#2b77e7"
+        },
+        cyan: {
+          50: "#e0f7fa"
+        },
+        purple:{
+          50: "#f3e5f5"
+        },
+        amber:{
+          50: '#fff8e1'
         }
       },
       fontFamily: {
